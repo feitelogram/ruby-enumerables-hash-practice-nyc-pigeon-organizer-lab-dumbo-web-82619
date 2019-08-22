@@ -34,6 +34,7 @@ def nyc_pigeon_organizer(data)
     pigeon
    end
    pigeon_list
+   binding.pry
   data.each do |key, value|
    
   end
