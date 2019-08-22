@@ -29,8 +29,8 @@ def nyc_pigeon_organizer(data)
   #3. Each of these hashes should have :color, :gender, and :lives keys assigned to arrays of info about that particular pigeon. 
   pigeon_list = {}
   pigeon_list = {"Theo": {}, "Peter Jr.": {}, "Lucky": {}, "Ms.K": {}, "Alex": {}, "Queenie": {}}
-  pigeon_list.map do |pigeon|
-    pigeon[1] = {color: nil, lives: nil, gender: nil}
+  pigeon_list.map do |pigeon, pigeon_info|
+    pigeon_info = {color: nil, lives: nil, gender: nil}
     pigeon
     binding.pry
    end
