@@ -29,6 +29,8 @@ def nyc_pigeon_organizer(data)
   #3. Each of these hashes should have :color, :gender, and :lives keys assigned to arrays of info about that particular pigeon. 
   pigeon_list = {}
   pigeon_list = {"Theo": {}, "Peter Jr.": {}, "Lucky": {}, "Ms.K": {}, "Alex": {}, "Queenie": {}}
+  pigeon_list.each do |pigeon|
+    pigeon
   data.each do |key, value|
     binding.pry
   end
