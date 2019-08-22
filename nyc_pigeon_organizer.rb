@@ -32,9 +32,10 @@ def nyc_pigeon_organizer(data)
   pigeon_list.map do |pigeon|
     pigeon[1] = {color: nil, lives: nil, gender: nil}
     pigeon
+    binding.pry
    end
-   pigeon_list
-   binding.pry
+   
+   #binding.pry
   data.each do |key, value|
    
   end
