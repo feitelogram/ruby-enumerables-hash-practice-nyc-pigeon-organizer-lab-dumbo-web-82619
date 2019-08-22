@@ -30,6 +30,7 @@ def nyc_pigeon_organizer(data)
   pigeon_list = {}
   pigeon_list = {"Theo": {}, "Peter Jr.": {}, "Lucky": {}, "Ms.K": {}, "Alex": {}, "Queenie": {}}
   pigeon_list.each do |pigeon|
+    pigeon[1] = {color: nil, lives: nil, gender: nil}
     pigeon
      binding.pry
    end
