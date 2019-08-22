@@ -36,10 +36,7 @@ def nyc_pigeon_organizer(data)
     "Alex":  {color: nil, lives: nil, gender: nil}, 
     "Queenie":  {color: nil, lives: nil, gender: nil}
   }
-   binding.pry
   data.each do |key, value|
-   
+    binding.pry
   end
-  
-  
 end
